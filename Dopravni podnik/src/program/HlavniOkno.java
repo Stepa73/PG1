@@ -13,7 +13,7 @@ import model.Vozidlo;
 
 /**
  *
- * @author ceskyDJ
+ * @author GAZi
  */
 public class HlavniOkno extends javax.swing.JFrame {
 

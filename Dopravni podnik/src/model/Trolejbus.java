@@ -7,12 +7,11 @@ package model;
 
 /**
  *
- * @author ceskyDJ
+ * @author GAZi
  */
 public class Trolejbus extends Vozidlo {
     private int evidencniCislo;
 
-    
     public int getEvidencniCislo() {
         return evidencniCislo;
     }
@@ -20,4 +19,5 @@ public class Trolejbus extends Vozidlo {
     public void setEvidencniCislo(int evidencniCislo) {
         this.evidencniCislo = evidencniCislo;
     }
+
 }

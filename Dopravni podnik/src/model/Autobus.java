@@ -7,12 +7,11 @@ package model;
 
 /**
  *
- * @author ceskyDJ
+ * @author GAZi
  */
 public class Autobus extends Vozidlo {
     private String registracniZnacka;
 
-    
     public String getRegistracniZnacka() {
         return registracniZnacka;
     }

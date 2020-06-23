@@ -9,7 +9,7 @@ import model.Autobus;
 
 /**
  *
- * @author ceskyDJ
+ * @author GAZi
  */
 public class AutobusDialog extends javax.swing.JDialog {
     

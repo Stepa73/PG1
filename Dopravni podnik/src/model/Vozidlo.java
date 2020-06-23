@@ -7,7 +7,7 @@ package model;
 
 /**
  *
- * @author ceskyDJ
+ * @author GAZi
  */
 public abstract class Vozidlo {
     private int kapacita;

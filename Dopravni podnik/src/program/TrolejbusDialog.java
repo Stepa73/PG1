@@ -10,7 +10,7 @@ import model.Trolejbus;
 
 /**
  *
- * @author ceskyDJ
+ * @author GAZi
  */
 public class TrolejbusDialog extends javax.swing.JDialog {
 

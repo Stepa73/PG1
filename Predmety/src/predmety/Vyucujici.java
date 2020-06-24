@@ -7,10 +7,7 @@ package predmety;
 
 import java.util.Arrays;
 
-/**
- *
- * @author ceskyDJ
- */
+
 public class Vyucujici extends Osoba {
     private String kodZamestnance;
     private Predmet[] coUci;

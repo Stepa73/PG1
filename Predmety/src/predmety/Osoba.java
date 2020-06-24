@@ -9,6 +9,7 @@ package predmety;
  *
  * 
  */
+
 public class Osoba {
     private String jmeno;
     protected String rodneCislo;
@@ -28,8 +29,9 @@ public class Osoba {
     public void setRodneCislo(String rodneCislo) {
         this.rodneCislo = rodneCislo;
     }
- public String predstavSe() {
-    return "Ahoj, jmenuju se " +  this.jmeno;
+
+    public String predstavSe() {
+    return "Ahoj, jmenuji se " +  this.jmeno;
     
     }
 }

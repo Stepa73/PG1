@@ -17,11 +17,17 @@ public class Odmocnina {
      */
     public static void main(String[] args) {
        Scanner sc = new Scanner (System.in);
-       System.out.println("Zadej číslo pro vypočítání odmocniny");
-       int cislo;
-       cislo = sc.nextInt();
+       System.out.println("Zadej číslo pro vypočítání odmocniny.");
+       double cislo;
+       cislo = sc.nextDouble();
+
+       if (cislo < 0){
+           System.out.println("Zadané číslo pro vypočítání odmocniny je menší jak nula.");
+           return;
+       }
+
        
-       System.out.println("Výsledek je "+Math.sqrt(cislo));
+       System.out.println("Výsledek je "+Math.sqrt(cislo)+" .");
     }
     
 }
